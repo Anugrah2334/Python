@@ -1,0 +1,5 @@
+x=int(input("Enter the value of x:"))
+y=int(input("Enter the value of y:"))
+print("Compute (x+y)*(x+y)")
+z=(x+y)*(x+y)
+print("The value after computation is:",z)

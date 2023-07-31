@@ -1,6 +1,5 @@
-Python 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> a="Anugrah"
->>> b="Kumar"
->>> print(a+' '+b)
-Anugrah Kumar
+print("To calculate the length of Hypotenuse of a Right angle Triangle")
+a=float(input("Enter the value of Base of Triangle:"))
+b=float(input("Enter the value of Height of Triangle:"))
+c=(a**2+b**2)**0.5
+print("Hypotenuse of Right angle Triangle is:",c)
