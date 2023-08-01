@@ -1,5 +1,9 @@
-print("To calculate the length of Hypotenuse of a Right angle Triangle")
-a=float(input("Enter the value of Base of Triangle:"))
-b=float(input("Enter the value of Height of Triangle:"))
-c=(a**2+b**2)**0.5
-print("Hypotenuse of Right angle Triangle is:",c)
+x=int(input("Enter 1st Number:"))
+y=int(input("Enter 2nd Number:"))
+z=int(input("Enter 3rd Number:"))
+if x>y and x>y:
+    print("1st number is the greatest")
+elif y>x and y>z:
+    print("2nd Number is the greatest")
+else:
+    print("3rd Number is the greatest")

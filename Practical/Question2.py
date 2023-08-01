@@ -1,4 +1,5 @@
-Radius=float(input("Enter the radius:"))
-pi=3.14
-Area_of_Circle=pi*Radius*Radius
-print("Area of Circle is:",Area_of_Circle)
+n=int(input("Enter any number:"))
+if n%5==0:
+    print("Given number",n,"is multiple of 5")
+else:
+    print("Given number",n,"is not the multiple of 5")

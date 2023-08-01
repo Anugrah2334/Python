@@ -1,7 +1,6 @@
-#TO FIND AREA OF TRIANGLE WHEN THE LENGTH OF SIDES ARE GIVEN
-x=float(input("Enter the length of 1st side:"))
-y=float(input("Enter the length of 2nd side:"))
-z=float(input("Enter the length of 3rd side:"))
-s=(x+y+z)/2
-area=(s*(s-x)*(s-y)*(s-z))**0.5
-print("Area of Triangle is:",area)
+print("PROGRAM TO FIND WHETHER THE GIVEN YEAR IS LEAP YEAR OR NOT")
+x=int(input("Enter the year you want to search:"))
+if x%4==0 or x%400==0 and x%100!=0:
+    print("The entered year is a Leap year")
+else:
+    print("The entered year is not a Leap year")
